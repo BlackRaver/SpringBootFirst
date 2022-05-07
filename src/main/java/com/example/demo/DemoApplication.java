@@ -22,7 +22,7 @@ public class DemoApplication {
 	@GetMapping
 	public List<Student> hello(){
 		return List.of(
-				new Student(1L, "Sebus", "Sebus.w@wp.pl", LocalDate.of(2001, Month.FEBRUARY, 3), 21)
+				new Student(1L, "Wiktor", "wito.w@wp.pl", LocalDate.of(2001, Month.FEBRUARY, 3), 21)
 		);
 	}
 
